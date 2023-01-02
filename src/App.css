@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+h1 {
+  text-align: center;
+}
+
+.content {
+  display: flex;
+}
+
+.titles {
+  display: flex;
+  justify-content: space-around;
+}
+
+.content textarea, .content .mark  {
+  width: 50%;
+  height: 100vh;
+  padding: 20px;
+  outline: none;
+  border: none;
+  border-right: 1px solid #242424 ;
+}
+
+img {
+  width: 200px;
+  height: 150px;
+  object-fit: contain;
+}
